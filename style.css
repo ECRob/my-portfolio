@@ -50,6 +50,27 @@ body {
     align-items: center;
     flex-direction: row;
   }
+
+    :root {
+  --pali-color1: red;
+  --pali-color2: orange;
+  --pali-color3: yellow;
+}
+
+body {
+  background: linear-gradient(to right, var(--pali-color1), var(--pali-color2), var(--pali-color1));
+  color: yellow;
+  text-shadow: 3px 3px 6px black;
+  font-family: Georgia;
+  margin: 0;
+  text-align: center;
+  padding-top: 10%;
+  
+}
+
+p {
+  font-size: 1.2rem
+}
   
   .contact_info img {
     width:25px;
