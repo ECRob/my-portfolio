@@ -26,7 +26,7 @@ function addRecommendation() {
     }
   }
 
-    const palindromeInput = document.getElementById("text-input");
+const palindromeInput = document.getElementById("text-input");
 const palindromeSubmitButton = document.getElementById("check-btn");
 const palindromeResult = document.getElementById("result");
 
