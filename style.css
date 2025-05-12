@@ -325,3 +325,8 @@ body {
     text-align: center;
     cursor: pointer;
   }
+
+#profile {
+  text-align: center;
+  font-size: 1.5rem;
+}
